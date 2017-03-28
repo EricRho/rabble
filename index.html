@@ -6,10 +6,58 @@
 
     <link rel="stylesheet" href="/styles/home/home.css">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <link rel="icon" href="https://github.com/EricRho/Ranawara/blob/76433591f985206e6b20306818964ffaee2ce98a/app/assets/images/logos/icon.png?raw=true">
+
+    <!-- ANGULAR -->
+    <script src="/library/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular-route.min.js"></script>
+
+
+    <script src="/js/app.js"></script>
+    <script src="/js/angular/homectrl.js"></script>
+
+    <!-- PAGE JS -->
     <script src='/js/home.js'></script>
+    <script src="/js/_header.js"></script>
+    <link rel="stylesheet" href="/styles/layouts/_header.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
   </head>
-  <body>
-     <div class="home">
+
+  <body ng-app='villa' ng-controller='mainCtrl'>
+    <header>
+      <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper">
+              <a href="/" class="brand-logo">
+                <!-- <%= image_tag('/assets/images/logos/icon.png') %> -->
+                <img src='/assets/logos/icon.png'/>
+                <span>Ranawara</span>
+              </a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="/about">ABOUT</a></li>
+                <li><a href="/activities">ACTIVITIES</a></li>
+                <li><a href="/gallery">GALLERY</a></li>
+                <li><a href="/availability">AVAILABILITY</a></li>
+                <li><a href="/contact">CONTACT</a></li>
+                <li><a href="/FAQ">FAQ</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="main">
+      <div ng-view></div>
+    </div>
+
+    <!-- <div class="" ng-include='/layouts/_header.html'>
+
+    </div>
+     <div class="home" ng-controller='testCtrl'>
       <section class="background">
         <div class="content-wrapper">
           <p class="content-title">Ranawara</p>
@@ -42,7 +90,7 @@
           </section>
         </div>
       </section>
-    </div>
+    </div> -->
 
   </body>
 </html>

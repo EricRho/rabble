@@ -1,0 +1,30 @@
+header {
+  position: absolute;
+}
+nav {
+  box-shadow: none;
+  // background-color: transparent;
+  background-color: rgba(black, .5);
+
+  a {
+    display: inline-flex;
+    left: 0px !important;
+    transform: none !important;
+
+    img {
+      position: absolute;
+      height: 40px;
+      top: 11px;
+      left: 10px;
+    }
+
+    span {
+      position: absolute;
+      margin-left: 60px;
+    }
+  }
+}
+
+.brand-logo {
+  font-family: 'Cinzel Decorative', cursive;
+}
