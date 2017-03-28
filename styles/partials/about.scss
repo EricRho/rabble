@@ -1,0 +1,141 @@
+.about_main {
+
+  .cover {
+    // position: relative;
+    height: 60vh;
+    background-image: url('/assets/images/compressed/outdoor - night tree-min.jpg');
+    background-size: cover;
+    background-position: 50%;
+
+    &:before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      // height: 100%;
+      height: 60vh;
+      background: rgba(0, 0, 0, 0.3);
+    }
+
+    .title {
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      color: #fff;
+      top: 27vh;
+      font-family: 'Cinzel Decorative', cursive;
+    }
+
+    // img {
+    //   object-fit: cover;
+    //   height: 100%;
+    //   width: 100%;
+    // }
+  }
+}
+
+.container {
+  text-align: center;
+
+  h3 {
+    color: #bbbbbb;
+  }
+
+  .features {
+    // height: 400px;
+
+    .icon-link {
+      position: absolute;
+      left: 5px;
+      bottom: 5px;
+      width: 32px;
+
+      img {
+        width: 100%;
+        vertical-align: top;
+      }
+    }
+
+    .feature {
+      padding: 0;
+      text-transform: uppercase;
+      height: 100%;
+      transition: 1s;
+
+      a {
+        height: 100%;
+        width: 100%;
+
+        // .inner {
+        //   background-repeat: no-repeat;
+        //   background-size: cover;
+        //   position: center;
+        //   filter: grayscale(100%);
+        //   height: 100%;
+        //   width: 100%;
+        //   transition: 1s !important;
+        //
+        //   &:hover {
+        //     filter: grayscale(0%);
+        //     color: white;
+        //     position: center;
+        //     background-size: 500%;
+        //   }
+        //
+        //   h4 {
+        //     right: 0;
+        //     left: 0;
+        //     margin: 0 auto 0 auto;
+        //     opacity: .8;
+        //   }
+        // }
+
+        .villa {
+          background: url('photos/compressed/villa - day-min.jpg');
+        }
+
+        .grounds {
+          background: url('photos/compressed/Joby Davies - ©OBS08055-min.jpg');
+        }
+
+        .spa {
+          background: url('photos/compressed/Joby  Davies - ©OBS09949-min.jpg');
+        }
+
+        .food {
+          background: url('photos/compressed/Joby Davies - ©OBS09964-min.jpg');
+        }
+
+        .facilities {
+          background: url('photos/compressed/Joby Davies - ©OBS08255-min.jpg');
+        }
+
+        .inner {
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          filter: grayscale(80%);
+          height: 100%;
+          width: 100%;
+          transition: all .3s;
+
+          &:hover {
+            filter: grayscale(0%);
+            color: white;
+            position: center;
+            // transform: scale(1.2, 1.2);
+            transform: scale(.9, .9);
+            background-size: calc(cover);
+            // background-size: calc(cover - 50%);
+          }
+
+          h4 {
+            right: 0;
+            left: 0;
+            margin: 0 auto 0 auto;
+            opacity: .8;
+          }
+        }
+      }
+    }
+  }
+}
