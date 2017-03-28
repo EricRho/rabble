@@ -2,6 +2,9 @@
 .home {
   width: 100%; }
 
+html, body {
+  margin: 0; }
+
 .background {
   background-size: cover;
   background-repeat: no-repeat;

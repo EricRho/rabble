@@ -17,6 +17,7 @@ $slide-number: 3;
 
 html, body {
   // overflow: hidden;
+  margin: 0;
 }
 
 .background {
@@ -43,17 +44,17 @@ html, body {
     background-color: rgba(0, 0, 0, 0.3);
   }
   &:first-child {
-    background-image: url('photos/outdoor - pool angle_opt.jpg');
+    background-image: url('/assets/images/outdoor - pool angle_opt.jpg');
     transform: translateY(-$parallax-offset / 2);
     .content-wrapper {
       transform: translateY($parallax-offset /2);
     }
   }
   &:nth-child(2) {
-    background-image: url('photos/outdoor - pool.jpg');
+    background-image: url('/assets/images/outdoor - pool.jpg');
   }
   &:nth-child(3) {
-    background-image: url('photos/outdoor - tree.jpg');
+    background-image: url('/assets/images/outdoor - tree.jpg');
   }
 
   .content-wrapper {
