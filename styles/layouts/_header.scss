@@ -2,6 +2,8 @@ header {
   position: absolute;
 }
 nav {
+  position: absolute;
+  z-index: 10000;
   box-shadow: none;
   // background-color: transparent;
   background-color: rgba(black, .5);
