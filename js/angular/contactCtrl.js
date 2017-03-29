@@ -11,6 +11,8 @@ app.controller('contactCtrl', ['$scope', function($scope) {
     var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 16,
       center: uluru,
+      mapTypeControl: false,
+      scrollwheel: false,
       mapTypeId: 'satellite'
     });
     var marker = new google.maps.Marker({
