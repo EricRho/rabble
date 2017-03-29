@@ -19,7 +19,7 @@ app.config(['$routeProvider', function($routeProvider) {
       controller: 'galleryCtrl'
     })
     .when('/availability', {
-      templateUrl: 'partials/availability',
+      templateUrl: 'partials/availability.html',
       controller: 'availabilityCtrl'
     })
     .when('/contact', {
