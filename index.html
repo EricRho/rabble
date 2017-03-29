@@ -2,37 +2,42 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Ranawara</title>
 
+    <!-- BROWSER ICON -->
+    <link rel="icon" href="https://github.com/EricRho/Ranawara/blob/76433591f985206e6b20306818964ffaee2ce98a/app/assets/images/logos/icon.png?raw=true">
+
+    <!-- JQUERY -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
-    <link rel="icon" href="https://github.com/EricRho/Ranawara/blob/76433591f985206e6b20306818964ffaee2ce98a/app/assets/images/logos/icon.png?raw=true">
+
+    <!-- MATERIALIZE -->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- ANGULAR -->
     <script src="/library/angular.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular-route.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular-route.min.js"></script>
 
     <!-- ANGULAR MATERIAL DEPENENCIES -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script> -->
+    <!-- <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">    -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script> -->
 
-
+    <!-- JS -->
     <script src="/js/app.js"></script>
+    <script src='/library/materialize.min.js'></script>
+    <script src="/js/angular/route_controller.js"></script>
     <script src="/js/angular/homectrl.js"></script>
     <script src="/js/angular/aboutctrl.js"></script>
-    <script src="/js/angular/route_controller.js"></script>
 
 
-    <!-- <link rel="stylesheet" href="/styles/partials/home.css"> -->
+    <!-- CSS -->
     <link rel="stylesheet" href="/styles/import.css">
 
-    <!-- PAGE JS -->
-    <script src='/js/home.js'></script>
-    <script src="/js/_header.js"></script>
-    <link rel="stylesheet" href="/styles/layouts/_header.css">
-
+    <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
   </head>
 
@@ -46,8 +51,7 @@
                 <span>Ranawara</span>
               </a>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#!about">TEST</a></li>
-                <md-button class="md-warn">TEST</md-button>
+                <li><a href="#!about">about</a></li>
                 <!-- <li><a href="/about">ABOUT</a></li>
                 <li><a href="/activities">ACTIVITIES</a></li>
                 <li><a href="/gallery">GALLERY</a></li>
@@ -63,44 +67,6 @@
     <div class="main">
       <div ng-view></div>
     </div>
-
-    <!-- <div class="" ng-include='/layouts/_header.html'>
-
-    </div>
-     <div class="home" ng-controller='testCtrl'>
-      <section class="background">
-        <div class="content-wrapper">
-          <p class="content-title">Ranawara</p>
-          <section>
-            <a onclick='nextItem()'>
-              <span></span>
-            </a>
-          </section>
-        </div>
-      </section>
-      <section class="background">
-        <div class="content-wrapper">
-          <p class='content-title'>Second Tile</p>
-          <p class='content-subtitle'>Content here</p>
-          <section>
-            <a  onclick='nextItem()'>
-              <span></span>
-            </a>
-          </section>
-        </div>
-      </section>
-      <section class="background">
-        <div class="content-wrapper">
-          <p class='content-title'>Third Tile</p>
-          <p class='content-subtitle'>Content here</p>
-          <section>
-            <a onclick='nextItem()'>
-              <span></span>
-            </a>
-          </section>
-        </div>
-      </section>
-    </div> -->
 
   </body>
 </html>

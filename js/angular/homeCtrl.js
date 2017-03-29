@@ -28,8 +28,6 @@ app.controller('homeCtrl', ['$scope', function($scope) {
 		    	console.log('DELTA', delta);
 		  	}
 
-		  	debugger;
-
 		  	if (ticking != true) {
 		    	if (delta <= -scrollSensitivitySetting) {
 			      	// Down scroll

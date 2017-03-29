@@ -5,7 +5,7 @@ app.controller('aboutCtrl', ['$scope', function($scope) {
 
 
     $(document).ready(function() {
-      console.log('JQuery test');
+      console.log('JQuery test in about page');
 
       var $cont = document.querySelector('.cont');
 

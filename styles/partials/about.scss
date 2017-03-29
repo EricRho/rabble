@@ -1,3 +1,7 @@
+// Place all the styles related to the about controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
 .about_main {
 
   .cover {
@@ -24,12 +28,6 @@
       top: 27vh;
       font-family: 'Cinzel Decorative', cursive;
     }
-
-    // img {
-    //   object-fit: cover;
-    //   height: 100%;
-    //   width: 100%;
-    // }
   }
 }
 
@@ -90,23 +88,23 @@
         // }
 
         .villa {
-          background: url('/assets/images/compressed/villa - day-min.jpg');
+          background: url('photos/compressed/villa - day-min.jpg');
         }
 
         .grounds {
-          background: url('/assets/images/compressed/Joby Davies - ©OBS08055-min.jpg');
+          background: url('photos/compressed/Joby Davies - ©OBS08055-min.jpg');
         }
 
         .spa {
-          background: url('/assets/images/compressed/Joby  Davies - ©OBS09949-min.jpg');
+          background: url('photos/compressed/Joby  Davies - ©OBS09949-min.jpg');
         }
 
         .food {
-          background: url('/assets/images/compressed/Joby Davies - ©OBS09964-min.jpg');
+          background: url('photos/compressed/Joby Davies - ©OBS09964-min.jpg');
         }
 
         .facilities {
-          background: url('/assets/images/compressed/Joby Davies - ©OBS08255-min.jpg');
+          background: url('photos/compressed/Joby Davies - ©OBS08255-min.jpg');
         }
 
         .inner {
