@@ -1,11 +1,7 @@
 app.controller('aboutCtrl', ['$scope', function($scope) {
-    $scope.message = 'About Controller Working'
-    console.log('About Controller');
 
-
-
+    // Make into directive and drop JQuery
     $(document).ready(function() {
-      console.log('JQuery test in about page');
 
       var $cont = document.querySelector('.cont');
 
@@ -33,7 +29,7 @@ app.controller('aboutCtrl', ['$scope', function($scope) {
       });
 
 
-    }); // JQUERY
+    }); // JQuery
 
 
 }]);

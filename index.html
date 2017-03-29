@@ -19,6 +19,9 @@
     <script src="/library/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular-route.min.js"></script>
 
+    <!-- GOOGLE MAPS -->
+
+
     <!-- ANGULAR MATERIAL DEPENENCIES -->
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script> -->
     <!-- <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">    -->
@@ -26,12 +29,33 @@
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script> -->
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script> -->
 
+    <script type="text/javascript">
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyjaJu6wVGXmp4uFUWh_79cuSCwzce72I" async defer></script>
+
     <!-- JS -->
     <script src="/js/app.js"></script>
     <script src='/library/materialize.min.js'></script>
     <script src="/js/angular/route_controller.js"></script>
     <script src="/js/angular/homectrl.js"></script>
     <script src="/js/angular/aboutctrl.js"></script>
+    <script src="/js/angular/activitiesCtrl.js"></script>
+    <script src="/js/angular/galleryctrl.js"></script>
+    <script src="/js/angular/contactCtrl.js"></script>
+    <script src="/js/angular/availabilityCtrl.js"></script>
+    <script src="/js/angular/faqctrl.js"></script>
 
 
     <!-- CSS -->
