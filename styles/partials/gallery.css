@@ -79,6 +79,8 @@
     .m-p-g__controls.active {
       opacity: 1;
       visibility: visible; }
+      .m-p-g__controls.active button {
+        background-color: rgba(0, 0, 0, 0.65) !important; }
     .m-p-g__controls-close, .m-p-g__controls-arrow {
       -webkit-appearance: none;
       -moz-appearance: none;
