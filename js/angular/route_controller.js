@@ -10,8 +10,8 @@ app.config(['$routeProvider', function($routeProvider) {
       templateUrl: 'partials/about.html',
       controller: 'aboutCtrl'
     })
-    .when('/activies', {
-      templateUrl: 'partials/activies.html',
+    .when('/activities', {
+      templateUrl: 'partials/activities.html',
       controller: 'activitiesCtrl'
     })
     .when('/gallery', {
@@ -29,5 +29,5 @@ app.config(['$routeProvider', function($routeProvider) {
     .when('/faq', {
       templateUrl: 'partials/faq.html',
       controller: 'faqCtrl'
-    })
+    });
 }]);
