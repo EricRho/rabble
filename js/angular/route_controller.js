@@ -29,5 +29,27 @@ app.config(['$routeProvider', function($routeProvider) {
     .when('/faq', {
       templateUrl: 'partials/faq.html',
       controller: 'faqCtrl'
-    });
+    })
+    /* ------------ ABOUT PAGES ----------- */
+
+    .when('/about/villa', {
+      templateUrl: 'partials/about-pages/villa.html',
+      controller: 'villaCtrl'
+    })
+    .when('/about/grounds', {
+      templateUrl: 'partials/about-pages/grounds.html',
+      controller: 'groundsCtrl'
+    })
+    .when('/about/spa', {
+      templateUrl: 'partials/about-pages/spa.html', 
+      controller: 'spaCtrl'
+    })
+    .when('/about/food', {
+      templateUrl: 'partials/about-pages/food.html',
+      controller: 'foodCtrl'
+    })
+    .when('/about/facilities', {
+      templateUrl: 'partials/about-pages/facilities.html',
+      controller: 'facilitiesCtrl'
+    })
 }]);
