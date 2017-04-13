@@ -39,7 +39,7 @@ html, body {
   .background:nth-child(2) {
     background-image: url("/assets/images/outdoor - pool.jpg"); }
   .background:nth-child(3) {
-    background-image: url("/assets/images/outdoor - tree.jpg"); }
+    background-image: url("/assets/images/indoor - living room.jpg"); }
   .background .content-wrapper a {
     content: '';
     position: absolute;

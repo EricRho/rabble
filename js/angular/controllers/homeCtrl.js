@@ -3,6 +3,8 @@ app.controller('homeCtrl', ['$scope', function($scope) {
     $scope.message = 'Home Controller Working';
     console.log('Home Controller');
 
+    $scope.ticking = false;
+
     $(document).ready(function() {
 		var ticking = false,
 			isFirefox = (/Firefox/i.test(navigator.userAgent)),

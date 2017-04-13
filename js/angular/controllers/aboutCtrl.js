@@ -1,7 +1,9 @@
-app.controller('aboutCtrl', ['$scope', function($scope) {
+app.controller('aboutCtrl', ['$scope', '$timeout', function($scope, $timeout) {
 
     // Make into directive and drop JQuery
     $(document).ready(function() {
+
+      /***************** REPLACE ***************/
 
       var $cont = document.querySelector('.cont');
 
@@ -10,6 +12,7 @@ app.controller('aboutCtrl', ['$scope', function($scope) {
 
       setTimeout(function() {
         $cont.classList.remove('s--inactive');
+        console.log('JQUERY', $cont);
       }, 200);
       $elsArr.forEach(function($el) {
         $el.addEventListener('click', function() {
