@@ -22,9 +22,12 @@
     <!-- GOOGLE MAPS -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyjaJu6wVGXmp4uFUWh_79cuSCwzce72I" async defer></script>
 
-    <script type="text/javascript"> <!-- TRANSFER TO CONTROLLER -->
+    <script type="text/javascript">
       function initMap() {
-        var uluru = {lat: -25.363, lng: 131.044};
+        var uluru = {
+          lat: -25.363, 
+          lng: 131.044
+        };
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 4,
           center: uluru

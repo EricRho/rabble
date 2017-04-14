@@ -51,5 +51,5 @@ app.config(['$routeProvider', function($routeProvider) {
     .when('/about/facilities', {
       templateUrl: 'partials/about-pages/facilities.html',
       controller: 'facilitiesCtrl'
-    })
+    });
 }]);

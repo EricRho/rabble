@@ -154,7 +154,9 @@ $contentFadeinAT: 0.5s;
 
     &.grounds {
       &:before {
-        background-position: 50% 50% !important;
+        background-size: 86% !important;
+        // background-position: 50% 50% !important;
+        background-position: -38% 40% !important;
       }
     }
 
