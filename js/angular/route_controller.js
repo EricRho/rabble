@@ -41,7 +41,7 @@ app.config(['$routeProvider', function($routeProvider) {
       controller: 'groundsCtrl'
     })
     .when('/about/spa', {
-      templateUrl: 'partials/about-pages/spa.html', 
+      templateUrl: 'partials/about-pages/spa.html',
       controller: 'spaCtrl'
     })
     .when('/about/food', {
