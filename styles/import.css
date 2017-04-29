@@ -1,4 +1,5 @@
 @import url('/library/materialize.min.css');
+@import url('/styles/global.css');
 @import url('/styles/layouts/_header.css');
 @import url('/styles/partials/home.css');
 @import url('/styles/partials/about.css');
