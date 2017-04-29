@@ -10,10 +10,10 @@ app.config(['$routeProvider', function($routeProvider) {
       templateUrl: 'partials/about.html',
       controller: 'aboutCtrl'
     })
-    .when('/activities', {
-      templateUrl: 'partials/activities.html',
-      controller: 'activitiesCtrl'
-    })
+    // .when('/activities', {
+    //   templateUrl: 'partials/activities.html',
+    //   controller: 'activitiesCtrl'
+    // })
     .when('/gallery', {
       templateUrl: 'partials/gallery.html',
       controller: 'galleryCtrl'
