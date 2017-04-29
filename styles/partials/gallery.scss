@@ -40,7 +40,8 @@ $transition-duration: 0.5s;
 
 	&__fullscreen {
 		position: fixed;
-		z-index: 10;
+		// z-index: 10;
+		z-index: 1000; // EDIT
 		top: 0;
 		left: 0;
 		right: 0;
@@ -95,7 +96,8 @@ $transition-duration: 0.5s;
 		top: 0;
 		left: 0;
 		width: 100%;
-		z-index: 200;
+		// z-index: 200;
+		z-index: 1001; // EDIT
 		height: 20vh;
 		background: linear-gradient(to top, transparent 0%, rgba(black, 0.55) 100%);
 		opacity: 0;
