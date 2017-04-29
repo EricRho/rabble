@@ -132,6 +132,10 @@ html, body {
   opacity: .8;
   color: white; }
 
+.content-subtitle {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 200; }
+
 .background.up-scroll {
   -webkit-transform: translate3d(0, -15vh, 0);
   transform: translate3d(0, -15vh, 0); }
