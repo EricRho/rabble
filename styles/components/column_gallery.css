@@ -140,18 +140,15 @@
       opacity: 1;
       pointer-events: auto;
       transition: all 0.5s 1.4s; }
-    .el__content button {
-      background: none;
-      border: none; }
-      .el__content button a {
-        color: white; }
-    .el__content p {
-      font-size: 20px;
-      font-weight: 100; }
   .el__text {
     text-transform: uppercase;
     font-size: 40px;
     color: #fff; }
+    .el__text .container a {
+      color: white; }
+    .el__text .container p {
+      font-size: 24px;
+      font-weight: 400; }
     .el__text ul li {
       list-style-type: circle;
       text-align: left; }
