@@ -5,25 +5,18 @@ app.controller('galleryCtrl', ['$scope', '$timeout', '$q', function($scope, $tim
     var gallery = new MaterialPhotoGallery(elem);
   };
 
-  // $scope.src = '/assets/images/Joby Davies - ©OBS07597.jpg';
-
-  // $scope.sources = [{
-  //   name: '/assets/images/Joby Davies - ©OBS07597.jpg',
-  // }, {
-  //   name: '/assets/images/Joby Davies - ©OBS07718.jpg'
-  // }, {
-  //   name: '/assets/images/Joby Davies - ©OBS07884.jpg'
-  // }, {
-  //   name: '/assets/images/Joby Davies - ©OBS08143.jpg'
-  // }, {
-  //   name: '/assets/images/Joby Davies - ©OBS09754.jpg'
-  // }];
-
   $scope.sources = [
     '/assets/images/Joby Davies - ©OBS07597.jpg',
     '/assets/images/Joby Davies - ©OBS07718.jpg',
     '/assets/images/Joby Davies - ©OBS07884.jpg',
     '/assets/images/Joby Davies - ©OBS08143.jpg',
-    '/assets/images/Joby Davies - ©OBS09754.jpg'
+    '/assets/images/Joby Davies - ©OBS09754.jpg',
+    '/assets/images/Joby Davies - ©OBS08251.jpg',
+    '/assets/images/Joby  Davies - ©OBS09990.jpg',
+    '/assets/images/Joby Davies - ©OBS08055.jpg',
+    '/assets/images/Joby Davies - ©OBS08255.jpg',
+    '/assets/images/Joby Davies - ©OBS09964.jpg',
+    '/assets/images/villa - day.jpg',
+    '/assets/images/indoor - living room.jpg'
   ];
 }]);
